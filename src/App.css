@@ -1,0 +1,21 @@
+.App {
+  background: #04152d;
+  width: 100%;
+  height: 100%;
+}
+
+.pageBtn {
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+@media screen and (max-width:832px) {
+  .pageBtn {
+    bottom: 0%;
+    right: 0%;
+    width: 45px;
+  }
+}
